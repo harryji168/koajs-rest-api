@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="33" failures="0" errors="0" time="3.077">
+  <testsuite name="utils/response" errors="0" failures="0" skipped="0" timestamp="2022-03-28T23:44:20" time="1.011" tests="28">
+    <testcase classname="utils/response should define `Response` class" name="utils/response should define `Response` class" time="0.002">
+    </testcase>
+    <testcase classname="utils/response Response.STATUS_CODES should have all supported HTTP Response Statuses" name="utils/response Response.STATUS_CODES should have all supported HTTP Response Statuses" time="0.003">
+    </testcase>
+    <testcase classname="utils/response Response.success(ctx, params) should return the response with `status`, `data`, `message` properties" name="utils/response Response.success(ctx, params) should return the response with `status`, `data`, `message` properties" time="0.001">
+    </testcase>
+    <testcase classname="utils/response Response.success(ctx, params) should return `200` status code when have wrong status code" name="utils/response Response.success(ctx, params) should return `200` status code when have wrong status code" time="0">
+    </testcase>
+    <testcase classname="utils/response Response.fail(ctx, params) should return the response with `status`, `code`, `data`, `message` properties" name="utils/response Response.fail(ctx, params) should return the response with `status`, `code`, `data`, `message` properties" time="0">
+    </testcase>
+    <testcase classname="utils/response Response.fail(ctx, params) should return `400` status code when have wrong status code" name="utils/response Response.fail(ctx, params) should return `400` status code when have wrong status code" time="0">
+    </testcase>
+    <testcase classname="utils/response Response.error(ctx, params) should return the response with `status`, `code`, `data`, `message` properties" name="utils/response Response.error(ctx, params) should return the response with `status`, `code`, `data`, `message` properties" time="0.001">
+    </testcase>
+    <testcase classname="utils/response Response.error(ctx, params) should return `500` status code when have wrong status code" name="utils/response Response.error(ctx, params) should return `500` status code when have wrong status code" time="0">
+    </testcase>
+    <testcase classname="utils/response Response.ok(ctx, params) should return the `success` response " name="utils/response Response.ok(ctx, params) should return the `success` response " time="0.001">
+    </testcase>
+    <testcase classname="utils/response Response.created(ctx, params) should return the `success` response " name="utils/response Response.created(ctx, params) should return the `success` response " time="0.001">
+    </testcase>
+    <testcase classname="utils/response Response.accepted(ctx, params) should return the `success` response " name="utils/response Response.accepted(ctx, params) should return the `success` response " time="0.006">
+    </testcase>
+    <testcase classname="utils/response Response.noContent(ctx, params) should return the `success` response " name="utils/response Response.noContent(ctx, params) should return the `success` response " time="0.001">
+    </testcase>
+    <testcase classname="utils/response Response.badRequest(ctx, params) should return the `fail` response " name="utils/response Response.badRequest(ctx, params) should return the `fail` response " time="0.001">
+    </testcase>
+    <testcase classname="utils/response Response.unauthorized(ctx, params) should return the `fail` response " name="utils/response Response.unauthorized(ctx, params) should return the `fail` response " time="0.002">
+    </testcase>
+    <testcase classname="utils/response Response.forbidden(ctx, params) should return the `fail` response " name="utils/response Response.forbidden(ctx, params) should return the `fail` response " time="0.001">
+    </testcase>
+    <testcase classname="utils/response Response.notFound(ctx, params) should return the `fail` response " name="utils/response Response.notFound(ctx, params) should return the `fail` response " time="0">
+    </testcase>
+    <testcase classname="utils/response Response.notAcceptable(ctx, params) should return the `fail` response " name="utils/response Response.notAcceptable(ctx, params) should return the `fail` response " time="0.001">
+    </testcase>
+    <testcase classname="utils/response Response.requestTimeout(ctx, params) should return the `fail` response " name="utils/response Response.requestTimeout(ctx, params) should return the `fail` response " time="0.001">
+    </testcase>
+    <testcase classname="utils/response Response.conflict(ctx, params) should return the `fail` response " name="utils/response Response.conflict(ctx, params) should return the `fail` response " time="0">
+    </testcase>
+    <testcase classname="utils/response Response.requestEntityTooLarge(ctx, params) should return the `fail` response " name="utils/response Response.requestEntityTooLarge(ctx, params) should return the `fail` response " time="0.001">
+    </testcase>
+    <testcase classname="utils/response Response.unsupportedMediaType(ctx, params) should return the `fail` response " name="utils/response Response.unsupportedMediaType(ctx, params) should return the `fail` response " time="0.001">
+    </testcase>
+    <testcase classname="utils/response Response.unprocessableEntity(ctx, params) should return the `fail` response " name="utils/response Response.unprocessableEntity(ctx, params) should return the `fail` response " time="0">
+    </testcase>
+    <testcase classname="utils/response Response.tooManyRequests(ctx, params) should return the `fail` response " name="utils/response Response.tooManyRequests(ctx, params) should return the `fail` response " time="0.001">
+    </testcase>
+    <testcase classname="utils/response Response.internalServerError(ctx, params) should return the `error` response " name="utils/response Response.internalServerError(ctx, params) should return the `error` response " time="0.001">
+    </testcase>
+    <testcase classname="utils/response Response.notImplemented(ctx, params) should return the `error` response " name="utils/response Response.notImplemented(ctx, params) should return the `error` response " time="0.004">
+    </testcase>
+    <testcase classname="utils/response Response.badGateway(ctx, params) should return the `error` response " name="utils/response Response.badGateway(ctx, params) should return the `error` response " time="0.001">
+    </testcase>
+    <testcase classname="utils/response Response.serviceUnavailable(ctx, params) should return the `error` response " name="utils/response Response.serviceUnavailable(ctx, params) should return the `error` response " time="0.001">
+    </testcase>
+    <testcase classname="utils/response Response.gatewayTimeout(ctx, params) should return the `error` response " name="utils/response Response.gatewayTimeout(ctx, params) should return the `error` response " time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Misc" errors="0" failures="0" skipped="0" timestamp="2022-03-28T23:44:21" time="1.347" tests="3">
+    <testcase classname="Misc GET / &lt;200&gt; should always return with the API server information" name="Misc GET / &lt;200&gt; should always return with the API server information" time="0.065">
+    </testcase>
+    <testcase classname="Misc GET /spec &lt;200&gt; should always return API specification in swagger format" name="Misc GET /spec &lt;200&gt; should always return API specification in swagger format" time="0.025">
+    </testcase>
+    <testcase classname="Misc GET /status &lt;200&gt; should return `healthy` status if all components are healthy" name="Misc GET /status &lt;200&gt; should return `healthy` status if all components are healthy" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="Error" errors="0" failures="0" skipped="0" timestamp="2022-03-28T23:44:22" time="0.664" tests="2">
+    <testcase classname="Error UNKNOWN_ENDPOINT &lt;404&gt; should reject the request with no-exist API endpoint" name="Error UNKNOWN_ENDPOINT &lt;404&gt; should reject the request with no-exist API endpoint" time="0.023">
+    </testcase>
+    <testcase classname="Error INVALID_REQUEST_BODY_FORMAT &lt;422&gt; should reject the request body with invalid JOSN format" name="Error INVALID_REQUEST_BODY_FORMAT &lt;422&gt; should reject the request body with invalid JOSN format" time="0.038">
+    </testcase>
+  </testsuite>
+</testsuites>
